@@ -1,6 +1,6 @@
 # Sobre
 
-> Este projeto é um intento de bot para a plataforma Discord, escrito em Python. A idéia inicial era ser algo para passar o tempo, e admito, **o código está bem porco**, mas não quer dizer que nada possa ser aproveitado, muito pelo contrário, da sim para pegar alguma coisa e tirar algum conhecimento.
+> Este projeto é um intento de bot para a plataforma Discord, escrito em Python. A idéia inicial era ser algo para passar o tempo... descontinuado e então postado. **Alerta de código porco**
 
 
 # Bibliotecas utilizadas
@@ -11,5 +11,3 @@
 # Créditos
 
 > [zRitsu](https://github.com/zRitsu) - Carregamento de módulos, manipulador de erros e comando eval.
-
-### @Dalhy#0404
