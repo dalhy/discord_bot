@@ -1,14 +1,8 @@
 import discord
 
-from pymongo import MongoClient
 from discord.ext import commands
 
-app = MongoClient("") # Url do MongoDB
-db = app.Viper
-guilds = db['guilds']
-
-client = commands.Bot(command_prefix="pex ", case_insensitive=True)
-sharded = discord.AutoShardedClient(shard_count=2, shard_ids=(1, 2))
+client = commands.Bot(command_prefix="!", case_insensitive=True)
 client.remove_command('help')
 
 for extension in __import__("pathlib").Path('./modulos').glob('**/*.py'):
