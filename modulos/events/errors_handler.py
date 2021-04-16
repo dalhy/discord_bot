@@ -1,8 +1,7 @@
 import discord
+import traceback, sys, re
+
 from discord.ext import commands
-import traceback
-import sys
-import re
 
 class Errors(commands.Cog):
     def __init__(self, client):
