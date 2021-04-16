@@ -10,7 +10,7 @@ class on_mention(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
          if self.client.user.mention == message.content:
-            await message.channel.send(f" Olá {message.author.mention}, deseja saber quais são meus comandos? Você pode vê-los digitando ``pex ajuda``!")
+            await message.channel.send(f" Olá {message.author.mention}, deseja saber quais são meus comandos? Você pode vê-los digitando ``{self.client.prefix}ajuda``!")
 
 def setup(client):
     client.add_cog(on_mention(client))
